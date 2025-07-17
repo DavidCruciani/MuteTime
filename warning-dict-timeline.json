@@ -1,0 +1,98 @@
+{
+    "selected": [
+        "base",
+        "dell",
+        ".net",
+        "nvidia"
+    ],
+    "base": [
+        ".*Windows/INF",
+        ".*Windows/Boot",
+        ".*Windows/WinSxS/",
+        ".*Windows/Cursors",
+        ".*Windows/Fonts/",
+        ".*Windows/assembly",
+        ".*Windows/PolicyDefinitions",
+        ".*Windows/servicing/Packages",
+        ".*Windows/SystemApps/Microsoft",
+        ".*Windows/diagnostics/system",
+        
+
+        ".*Windows/System32/sru",
+        ".*Windows/System32/winevt/Logs",
+        ".*Windows/Logs/WindowsUpdate/WindowsUpdate",
+        ".*Windows/SoftwareDistribution/Download",
+
+        
+        ".*Program Files \\(x86\\)/WinTrack/",
+        
+        ".*ProgramData/Microsoft/Diagnosis/",
+        ".*ProgramData/Microsoft/Search",
+        
+        ".*ProgramData/Packages/Microsoft.YourPhone",
+        
+        ".*ProgramData/USOShared/Logs",
+
+        ".*Users/.*/AppData/Local/Packages/Microsoft",
+        ".*Users/.*/AppData/Local/Packages/MSTeams.*",
+        
+        ".*Program Files/WindowsApps/Microsoft",
+        ".*Program Files/WindowsApps/WavesAudio",
+
+        ".*AppData/LocalLow/Microsoft/CryptnetUrlCache",
+
+        ".*Windows/SystemResources/Windows",
+
+        ".*Program Files/WindowsPowerShell/Modules/Microsoft.PowerShell.Operation.Validation"
+    ],
+    "sys32": [
+        ".*System32"
+    ],
+    "sys64": [
+        ".*SysWOW64"
+    ],
+    "av": [
+        ".*Program Files \\(x86\\)/Trend Micro",
+
+        ".*ProgramData/Microsoft/Windows Defender",
+        ".*Program Files/Windows Defender",
+        ".*Program Files \\(x86\\)/Windows Defender",
+
+        ".*ProgramData/Malwarebytes",
+        ".*Program Files/Malwarebytes"
+    ],
+    "dell": [
+        ".*Program Files \\(x86\\)/DELL",
+        ".*Program Files \\(x86\\)/Dell Digital Delivery Services",
+        ".*Program Files/Dell/",
+        ".*ProgramData/Dell",
+        ".*ProgramData/Dell/UpdateService",
+        ".*Program Files/WindowsApps/DellInc"
+    ],
+    ".net": [
+        ".*Windows/Microsoft.NET/assembly/",
+        ".*Windows/Microsoft.NET/Framework/",
+        ".*Windows/Microsoft.NET/Framework64/",
+        ".*ProgramData/Microsoft/Windows/AppRepository/Packages/Microsoft.NET.Native.Framework",
+        ".*Program Files/Reference Assemblies/Microsoft/Framework",
+        ".*Program Files \\(x86\\)/Reference Assemblies/Microsoft/Framework",
+        ".*Program Files/dotnet/shared/Microsoft.NETCore.App"
+    ],
+    "nvidia": [
+        ".*ProgramData/NVIDIA Corporation"
+    ],
+
+    "deleted": [
+        ".*Program Files/WindowsApps/Microsoft.LanguageExperiencePack",
+        ".*Program Files/WindowsApps/Microsoft.YourPhone",
+        ".*Program Files/WindowsApps/Microsoft.WindowsTerminal",
+        ".*Program Files/WindowsApps/Microsoft.NET.Native.Framework",
+
+        ".*Users/.*/AppData/Local/Packages/MicrosoftWindows",
+        ".*Users/.*/AppData/Local/Packages/Microsoft.Windows.Photos",
+        ".*Users/.*/AppData/Local/Packages/Microsoft.YourPhone",
+        ".*Users/.*/AppData/Local/Packages/Microsoft.NET.Native.Framework",
+
+        ".*Windows/SystemApps/MicrosoftWindows.Client"
+    ]
+}
